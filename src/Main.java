@@ -15,5 +15,8 @@ public class Main {
         int[][] numSet2 = { {1,2,3}, {4,5,6} };  // Declare two-dimensional array
         // Printing two-dimensional array. deepToString() is used to print multidimensional array
         System.out.println(Arrays.deepToString(numSet2));
+
+        final float PI = 3.1416f;  // final is used to declare the value as constant.
+        System.out.println(PI);
     }
 }
